@@ -41,7 +41,10 @@ function positiveSum(arr) {
 ## Function 2
 
 ```js
-
+// Function named square takes in argument called elem
+const square = (param) => {
+  return Math.pow(param, 2) // returns argument elem to the power of 2
+}
 ```
 
 ## Sum Arrays
