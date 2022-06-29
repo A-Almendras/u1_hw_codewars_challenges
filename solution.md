@@ -50,7 +50,17 @@ const square = (param) => {
 ## Sum Arrays
 
 ```js
+function sum(numbers) {
+  'use strict'
 
+  let sumNumbs = 0
+
+  numbers.forEach((number) => {
+    sumNumbs += number
+  })
+
+  return sumNumbs
+}
 ```
 
 ## Reversed Strings
