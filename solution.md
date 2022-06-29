@@ -66,5 +66,8 @@ function sum(numbers) {
 ## Reversed Strings
 
 ```js
-
+function solution(str) {
+  // returns the reversed string
+  return str.split('').reverse().join('') // splits into an array of strings, reverses the array in place, joins all elements of an array into a string
+}
 ```
